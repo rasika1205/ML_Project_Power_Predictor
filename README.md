@@ -25,8 +25,6 @@ The backend exposes REST APIs for:
 - [Running the Backend](#running-the-backend)
 - [Configuration Notes](#configuration-notes)
 - [Model & Data Artifacts](#model--data-artifacts)
-- [Future Improvements](#future-improvements)
-- [License](#license)
 
 ---
 
@@ -271,23 +269,13 @@ Loaded once at app start. The `/predict` logic assumes the model output includes
 ---
 
 
-
-## Future Improvements
-- Add a pinned `requirements.txt`
-- Add a training notebook/script documenting:
-  - EDBO search space
-  - best hyperparameters found
-  - training/validation metrics and plots
-- Improve multi-step forecasting by generating true autoregressive future steps (rather than repeating identical inputs)
-- Add tests for API endpoints
-
 ---
 
 ## Author
 
-Rasika Gautam 2024UCM2694
-Pulkit Gupta 2024UCM4018
-Akshat Jain 2024UCM3327
+- Rasika Gautam 2024UCM2694
+- Pulkit Gupta 2024UCM4018
+- Akshat Jain 2024UCM3327
 
 ---
 
