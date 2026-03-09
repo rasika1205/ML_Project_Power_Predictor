@@ -118,7 +118,6 @@ EDBO evaluates candidate hyperparameter sets by training the model (or a trainin
 **Outcome:**
 The final saved model (`models/lstm_power_model.keras`) reflects the best hyperparameter configuration found by EDBO and is used by the Flask backend for inference.
 
-> Note: If you want this README to be even more precise, add a small table listing your *actual* tuned ranges and the *best-found* hyperparameters (e.g., best units, best learning rate, best dropout, etc.).
 
 ---
 
